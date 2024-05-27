@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dekorowanie choinki</title>
+    <style>
+        body {
+            background-color: rgb(175, 208, 242);
+            text-align: center;
+            font-size: xx-large;
+            font-style: italic;
+            font-family:system-ui;
+        }
+        
+        #container {
+            width: 800px;
+            margin: auto;
+            border-radius: 20%;
+        }
+        
+        #bombki img {
+            width: 50px;
+        }
+        
+        #paczki img {
+            width: 70px;
+        }
+        
+        #bombki,
+        #paczki {
+            float: left;
+            padding-left: 25px;
+            padding-top: 25px;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $(".dra").draggable();
+        })
+    </script>
+</head>
+
+<body>
+    <h1>
+        Dekorowanie choinki
+    </h1>
+    <div id="container">
+        <img src="choinka.png" alt="" width="500px">
+        <div id="bombki">
+            <div class="dra">
+                <img src="bombka.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="bombka2.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="bombka3.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="bombka4.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="bombka5.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="bombka6.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="bombka7.png" alt="">
+            </div>
+
+        </div>
+
+        <div id="paczki">
+            <div class="dra">
+                <img src="prezent1.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="prezent2.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="prezent3.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="prezent4.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="prezent5.png" alt="">
+            </div>
+            <div class="dra">
+                <img src="prezent6.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
